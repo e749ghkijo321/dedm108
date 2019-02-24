@@ -3006,16 +3006,44 @@ bottom: 9vh;
     height: 185px;   
 }
 
-.mvv{  
+/*.mvv{  
  z-index: 555;
    width:100%; 
    min-height: 400px;
+}*/
+.video-container {
+
+position: relative;
+
+padding-bottom: 35%;
+
+padding-top: 30px;
+
+height: 0;
+
+overflow: hidden;
+
 }
 
+.video-container iframe, .video-container object, .video-container embed {
+
+position: absolute;
+
+top: 0;left: 0;
+
+    width: 98%;
+    height: 100%;}
 #contact,#abinfo {
 
-padding:20vh 0;
+padding:16vh 0;
 }
+
+#abinfo {
+
+padding-bottom: 0;
+}
+
+
 #about .timeinfo {
     display: block;
     position: relative;
@@ -3023,6 +3051,7 @@ padding:20vh 0;
     top: 0;
   
 }
+
 .info1 {
     border: 2px #ffe200 solid;
     padding: 5px 0 20px 20px;
