@@ -3006,13 +3006,14 @@ bottom: 9vh;
     height: 185px;   
 }
 
-.mvv{
+.mvv{  
+ z-index: 555;
    width:100%; 
    min-height: 400px;
 }
 
 #contact,#abinfo {
-   z-index: 555;
+
 padding:20vh 0;
 }
 #about .timeinfo {
