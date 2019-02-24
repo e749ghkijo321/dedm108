@@ -45,7 +45,6 @@ function checkWidth(init)
     if ($(window).width() < 450) {
         $('html').addClass('mobile');
             $('html').removeClass('computer');
-            $('#abmvm').removeClass('video-container');
 
 
     }
@@ -53,7 +52,6 @@ function checkWidth(init)
         if (!init) {
             $('html').removeClass('mobile');
             $('html').addClass('computer');
-            $('#abmvm').addClass('video-container');
 
         }
     }
