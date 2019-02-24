@@ -3096,6 +3096,20 @@ color: #fff;
 
 }
 
+.abmvm iframe{
+   display: block;
+}
+
+.abmvm a {
+   display: none;
+
+}
+.abmvm img{
+      position: relative;
+    width: 100%;
+}
+
+
 footer{
     color: #ffffff9e;
     letter-spacing: 5px;
@@ -3336,6 +3350,19 @@ top: unset;
 }
 
 @media screen and (max-width: 960px) {
+
+
+.abmvm iframe{
+   display: none;
+}
+
+.abmvm a {
+   display: block;
+}
+
+.video-container {
+    padding-bottom: 62%;}
+
    .info1.aa {
     margin-bottom: 20px;
 }
