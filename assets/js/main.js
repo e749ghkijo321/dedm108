@@ -175,7 +175,7 @@ $(document).ready(function() {
    function drawLine(container, paths) {
       for (var i = 0; i < paths.length; i++) {
          var pathLength = paths[i].getTotalLength(),
-            maxScrollTop = $(document).height() * 7 - $(window).height(),
+            maxScrollTop = $(document).height() * 8 - $(window).height() -2000 ,
             percentDone = $(window).scrollTop() / maxScrollTop,
             length = percentDone * pathLength;
          paths[i].style.strokeDasharray = [length, pathLength].join(" ");
