@@ -3012,6 +3012,7 @@ bottom: 9vh;
 }
 
 #contact,#abinfo {
+   z-index: 555;
 padding:20vh 0;
 }
 #about .timeinfo {
