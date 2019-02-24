@@ -154,7 +154,7 @@
       $(".computer #celtic").animate({ "width": "45%", "left": "12vw", "top": "23vh" }, "slow");
       $(".clinfo").css("display", "none")
       $(".clock").animate({ "top": "31vh", "opacity": "1", "right": "14vw" }, "slow");
-      $(".mobile #celtic").animate({ "width": "45%", "left": "28vw", "top": "12vh" }, "slow");
+      $(".mobile #celtic").animate({ "width": "45%", "left": "28vw", "top": "9vh" }, "slow");
 
 
    });
